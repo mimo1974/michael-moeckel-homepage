@@ -1,0 +1,44 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import { Badge } from '../../../components/ui/badge';
+
+export async function getStaticPaths() {
+	const entries = await getCollection('astronomie');
+	return entries.map((entry) => ({
+		params: { slug: entry.id },
+		props: { entry },
+	}));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const formattedDate = entry.data.date.toLocaleDateString('de-DE', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+});
+---
+
+<Layout title={entry.data.title}>
+	<article class="flex flex-col gap-4">
+		<a href="/freizeit/astronomie" class="text-sm text-muted-foreground hover:text-foreground"
+			>← Astronomie</a
+		>
+		<p class="text-sm text-muted-foreground">{formattedDate}</p>
+		<h1 class="text-3xl font-heading font-semibold">{entry.data.title}</h1>
+		{
+			entry.data.tags && entry.data.tags.length > 0 && (
+				<div class="flex flex-wrap gap-2">
+					{entry.data.tags.map((tag) => (
+						<Badge variant="secondary">{tag}</Badge>
+					))}
+				</div>
+			)
+		}
+		<div class="mt-4 flex flex-col gap-4 text-foreground/90">
+			<Content />
+		</div>
+	</article>
+</Layout>

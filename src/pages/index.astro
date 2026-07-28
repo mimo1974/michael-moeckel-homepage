@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { buttonVariants } from '../components/ui/button';
+---
+
+<Layout title="Startseite">
+	<div class="flex min-h-[60vh] flex-col justify-center gap-6">
+		<h1 class="text-4xl font-heading font-semibold">Michael Möckel</h1>
+		<p class="max-w-xl text-lg text-muted-foreground">
+			TODO: Ein-Satz-Tagline zur beruflichen Rolle (z. B. "Softwareentwickler mit Fokus auf ...").
+		</p>
+		<p class="max-w-xl text-muted-foreground">TODO: Kurze 1-2 Sätze Einleitung.</p>
+		<div class="flex items-center gap-4 pt-2">
+			<a href="/beruf" class={buttonVariants({ variant: 'default' })}>Beruf ansehen</a>
+			<a
+				href="/freizeit/astronomie"
+				class="text-sm text-muted-foreground underline-offset-4 hover:underline"
+			>
+				Mehr über meine Freizeit →
+			</a>
+		</div>
+	</div>
+</Layout>

@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import LogEntryCard from '../../../components/LogEntryCard.astro';
+
+const entries = (await getCollection('sport')).sort(
+	(a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<Layout title="Sport">
+	<div class="flex flex-col gap-8">
+		<section>
+			<h1 class="text-3xl font-heading font-semibold">Sport</h1>
+			<p class="mt-4 max-w-2xl text-muted-foreground">TODO: Beschreibung – welche Sportarten, seit wann.</p>
+		</section>
+
+		<section class="flex flex-col gap-4">
+			{
+				entries.map((entry) => (
+					<LogEntryCard
+						href={`/freizeit/sport/${entry.id}`}
+						title={entry.data.title}
+						date={entry.data.date}
+						tags={entry.data.tags}
+					/>
+				))
+			}
+		</section>
+	</div>
+</Layout>

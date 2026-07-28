@@ -1,0 +1,37 @@
+---
+import { Card, CardHeader, CardTitle, CardDescription } from './ui/card';
+import { Badge } from './ui/badge';
+
+interface Props {
+	href: string;
+	title: string;
+	date: Date;
+	tags?: string[];
+}
+
+const { href, title, date, tags } = Astro.props;
+
+const formattedDate = date.toLocaleDateString('de-DE', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+});
+---
+
+<a href={href}>
+	<Card className="transition-colors hover:border-foreground/30">
+		<CardHeader>
+			<CardDescription>{formattedDate}</CardDescription>
+			<CardTitle>{title}</CardTitle>
+			{
+				tags && tags.length > 0 && (
+					<div class="flex flex-wrap gap-2 pt-2">
+						{tags.map((tag) => (
+							<Badge variant="secondary">{tag}</Badge>
+						))}
+					</div>
+				)
+			}
+		</CardHeader>
+	</Card>
+</a>

@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../../layouts/Layout.astro';
+import LogEntryCard from '../../../components/LogEntryCard.astro';
+
+const entries = (await getCollection('astronomie')).sort(
+	(a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<Layout title="Astronomie">
+	<div class="flex flex-col gap-8">
+		<section>
+			<h1 class="text-3xl font-heading font-semibold">Astronomie</h1>
+			<p class="mt-4 max-w-2xl text-muted-foreground">
+				TODO: Beschreibung der Sternwarte/Ausrüstung und wie es dazu kam.
+			</p>
+		</section>
+
+		<section class="flex flex-col gap-4">
+			{
+				entries.map((entry) => (
+					<LogEntryCard
+						href={`/freizeit/astronomie/${entry.id}`}
+						title={entry.data.title}
+						date={entry.data.date}
+						tags={entry.data.tags}
+					/>
+				))
+			}
+		</section>
+	</div>
+</Layout>
