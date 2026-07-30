@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 ---
 
 <Layout title="Beruf">
@@ -7,16 +8,26 @@ import Layout from '../layouts/Layout.astro';
 		<section>
 			<h1 class="text-3xl font-heading font-semibold">Beruf</h1>
 			<p class="mt-4 max-w-2xl text-muted-foreground">
-				TODO: Kurze Bio – wer du bist und was du als Programmierer machst (2-4 Sätze).
+			Seit Anfang der 2000er Jahre im Webumfeld tätig.<br/><br/>
+
+				Zu meinen Stärken zählen Teamfähigkeit, Neugier auf neue Technologien und Beständigkeit: manchmal hat der Entwicklertag mehr als 8Std ;)<br/><br/>
+				CDD (CustomerDrivenDevelopment) steht im Mittelpunkt!<br/><br>
+
+				Als Freelancer der ersten Stunde bei EASIR/LoyaltyFactory GmbH konnte ich wertvolle Erfahrungen bei der Entwicklung/Integration von CRM-Systemen für große Automobilfirmen sammeln.<br>
+
+				Bei Themen wie PHP, PHP-Frameworks, Laravel, Symfony, PHPStorm, PHPUnit, mySQL/Postgres, HTML/JS, Docker/K8s, CI/CD und Linux fühl ich mich wohl ;)
 			</p>
 		</section>
 
 		<section>
 			<h2 class="text-xl font-heading font-semibold">Skills</h2>
-			<ul class="mt-4 flex flex-wrap gap-2 text-sm text-muted-foreground">
-				<li class="rounded-md border border-border px-2.5 py-1">TODO: Skill 1</li>
-				<li class="rounded-md border border-border px-2.5 py-1">TODO: Skill 2</li>
-				<li class="rounded-md border border-border px-2.5 py-1">TODO: Skill 3</li>
+			<ul class="mt-4 flex list-disc flex-col gap-2 pl-5 text-sm text-muted-foreground">
+				<li class="rounded-md border border-border px-2.5 py-1">Back-End-Webentwicklung</li>
+				<li class="rounded-md border border-border px-2.5 py-1">Softwaredesign (Patterns, Scrum) / Refactoring</li>
+				<li class="rounded-md border border-border px-2.5 py-1">PHP Frameworks (Laravel/Symfony)</li>
+				<li class="rounded-md border border-border px-2.5 py-1">Full-Stack-Entwicklung (PHP, JS, HTML, Node, React)</li>
+				<li class="rounded-md border border-border px-2.5 py-1">RDB (MySQL, PostgreSQL), NoSQL (ElasticSearch)</li>
+				<li class="rounded-md border border-border px-2.5 py-1">Java/Python/XML/Soap</li>
 			</ul>
 		</section>
 
@@ -24,8 +35,12 @@ import Layout from '../layouts/Layout.astro';
 			<h2 class="text-xl font-heading font-semibold">Projekte</h2>
 			<div class="mt-4 flex flex-col gap-4">
 				<div class="rounded-lg border border-border p-4">
-					<h3 class="font-medium">TODO: Projektname</h3>
-					<p class="mt-1 text-sm text-muted-foreground">TODO: Ein bis zwei Sätze zum Projekt.</p>
+					<h3 class="font-medium">Projekt CleverLEAD (Skoda Auto Deutschland) (2015-2026)</h3>
+					<p class="mt-1 text-sm text-muted-foreground">Integration/Adaption des CRM-Systems EASIR für das Händlernetzes</p>
+				</div>
+				<div class="rounded-lg border border-border p-4">
+					<h3 class="font-medium">Projekt Easy2Click (Toyota Deutschland GmbH) (2004-2015)</h3>
+					<p class="mt-1 text-sm text-muted-foreground">Entwicklung des CRM-Moduls Easy2click für das DMS-System des Händlernetzes</p>
 				</div>
 			</div>
 		</section>
@@ -34,21 +49,49 @@ import Layout from '../layouts/Layout.astro';
 			<h2 class="text-xl font-heading font-semibold">Kontakt</h2>
 			<ul class="mt-4 flex flex-col gap-1 text-sm">
 				<li>
-					<a href="mailto:TODO@example.com" class="text-muted-foreground hover:text-foreground">
-						TODO@example.com
+					<a href="mailto:mimo.moeckel@gmail.com" class="text-muted-foreground hover:text-foreground">
+						mimo.moeckel@gmail.com
 					</a>
 				</li>
 				<li>
-					<a href="https://linkedin.com/in/TODO" class="text-muted-foreground hover:text-foreground">
+					<a href="https://www.linkedin.com/in/michael-m%C3%B6ckel-5a7ab161/" class="text-muted-foreground hover:text-foreground">
 						LinkedIn
 					</a>
 				</li>
 				<li>
-					<a href="https://github.com/TODO" class="text-muted-foreground hover:text-foreground">
+					<a href="https://github.com/mimo1974" class="text-muted-foreground hover:text-foreground">
 						GitHub
 					</a>
 				</li>
 			</ul>
+
+			<div class="mt-6 flex gap-4">
+				<a
+					href="mailto:mimo.moeckel@gmail.com"
+					aria-label="E-Mail"
+					class="text-muted-foreground hover:text-foreground"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/michael-m%C3%B6ckel-5a7ab161/"
+					aria-label="LinkedIn"
+					target="_blank"
+					rel="noreferrer"
+					class="text-muted-foreground hover:text-foreground"
+				>
+					<FaLinkedin className="size-5" />
+				</a>
+				<a
+					href="https://github.com/mimo1974"
+					aria-label="GitHub"
+					target="_blank"
+					rel="noreferrer"
+					class="text-muted-foreground hover:text-foreground"
+				>
+					<FaGithub className="size-5" />
+				</a>
+			</div>
 		</section>
 	</div>
 </Layout>

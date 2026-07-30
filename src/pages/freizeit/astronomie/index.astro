@@ -1,33 +1,91 @@
 ---
-import { getCollection } from 'astro:content';
+import {getCollection} from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import LogEntryCard from '../../../components/LogEntryCard.astro';
 
 const entries = (await getCollection('astronomie')).sort(
-	(a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+    (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
 );
 ---
 
 <Layout title="Astronomie">
-	<div class="flex flex-col gap-8">
-		<section>
-			<h1 class="text-3xl font-heading font-semibold">Astronomie</h1>
-			<p class="mt-4 max-w-2xl text-muted-foreground">
-				TODO: Beschreibung der Sternwarte/Ausrüstung und wie es dazu kam.
-			</p>
-		</section>
+    <div class="flex flex-col gap-8">
+        <section>
+            <h1 class="text-3xl font-heading font-semibold">Astronomie</h1>
+            <img
+                    src="/images/astro/00.jpeg"
+                    alt="Astrofoto"
+                    class="mt-4 max-w-2xl rounded-lg border border-border"
+            />
+            <p class="mt-4 max-w-2xl text-muted-foreground">
+                Astronomie war schon immer meine Leidenschaft.
+                Ich startete mit einem Fernglas Anfang der 2003er Jahre.
+                Schnell kamen die ersten Aufnahmen mit der Kamera dazu, das erste Teleskop...
+                Ich fuhr in den Süden von Chemnitz (Kleinolbersdorf), da dort die Beobachtungsbedingungen besser waren
+                als aus Chemnitz heraus.
+                Ich wollte aber mehr: das wiederholte auf- und abbauen des Equipments nahm viel Zeit in Anspruch.
+                Die Idee eines kleinen permanenten Beobachtungsstandortes reifte so langsam.
+                Ich fuhr mehrmals an verschiedene Standorte südlich von Chemnitz Richtung Erzgebirge,
+                um die Beobachtungsbedingungen zu evaluieren.
+                Ein Kollege von mir nahm mich zufällig mit zu einem Beobachtungstreff des AstroTeam Elbe-Elster e.V.
+                nach Jeßnigk bei Herzberg(Elster).
+                Ich traf Ralf Hofner, den Vereinsvorsitzenden, und wir führten gemeinsam Beobachtungen unter den idealen
+                Standortbedingungen durch.
+                Ich war von der Atmosphäre im Team und von den grandiosen Beobachtungsbedingungen so begeistert, dass
+                nach und nach die Idee reifte,
+                eine Sternwarte am Standort des Herzberger Teleskoptreffens (HTT), zu errichten.<br><br>
+                Das HTT ist eines der größten Teleskoptreffen in Deutschland, das jährlich im September bei Vollmond für
+                4 Tage in Brandenburgs Wüste stattfindet,
+                mit Besuchern aus allen Bundesländern und aus dem Ausland. Organisiert wird das HTT von unserem Verein
+                AstroTeam Elbe-Elster e.V. <br><br>
+                <a href="https://www.herzberger-teleskoptreffen.de/" target="_blank" class="text-blue-500 underline">Herzberger
+                    Teleskoptreffen</a><br><br/>
+                Die Planungen für den Bau begannen Mitte 2009 und die Sternwarteinweihung fand
+                2010 statt - 1 Jahr Bauzeit.<br><br>
+                Von der Vision zur Einweihung:<br>
+            </p>
+            <ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+                <li>
+                    <a href="https://old.herzberger-teleskoptreffen.de/news/vtr-rbt-2010.php" target="_blank"
+                       class="text-blue-500 underline">Die Vision</a>
+                </li>
+                <li>
+                    <a href="https://old.herzberger-teleskoptreffen.de/stw/projekt.php" target="_blank"
+                       class="text-blue-500 underline">Bau der Sternwarte</a>
+                </li>
+                <li>
+                    <a href="https://old.herzberger-teleskoptreffen.de/10-htt/stw.php" target="_blank"
+                       class="text-blue-500 underline">Einweihung der Sternwarte</a>
+                </li>
+            </ul>
+            <br>
+            Die Sternwarte ist vollständig remote über das Internet steuerbar. Keine Anwesenheit ist notwendig!<br><br>
 
-		<section class="flex flex-col gap-4">
-			{
-				entries.map((entry) => (
-					<LogEntryCard
-						href={`/freizeit/astronomie/${entry.id}`}
-						title={entry.data.title}
-						date={entry.data.date}
-						tags={entry.data.tags}
-					/>
-				))
-			}
-		</section>
-	</div>
+            Ausrüstung:<br>
+            <ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+                <li>15" Newton Spiegel-Teleskop mit Lomo-Haupt/Fangspiegel</li>
+                <li>ASA DDM85 Montierung mit Direktantrieb</li>
+                <li>3m Scopedome-Kuppel</li>
+                <li>ein Carl Zeiss JENA 100/1.000mm AS Refraktor</li>
+                <li>ein Celestron 8"  (diese 3 Instr. wurden von unserem Ehrenmitglied Hans Schumacher gesponsert)</li>
+                <li>ein 10" / f/5.5 Intes-micro Maksutov-Newton (im HP-Eigenbautubus)</li>
+                <li>ein H-alpha-Sonnenbeobachtungsmodul - universell an mehreren Fernrohren einsetzbar - eine
+                Eigenkonstruktion mit Technikkomponenten von Wolfgang Lille.</li>
+
+            </ul>
+        </section>
+        <!--
+                <section class="flex flex-col gap-4">
+                    {
+                        entries.map((entry) => (
+                                <LogEntryCard
+                                        href={`/freizeit/astronomie/${entry.id}`}
+                                        title={entry.data.title}
+                                        date={entry.data.date}
+                                        tags={entry.data.tags}
+                                />
+                        ))
+                    }
+                </section>-->
+    </div>
 </Layout>

@@ -12,9 +12,41 @@ const entries = (await getCollection('sport')).sort(
 	<div class="flex flex-col gap-8">
 		<section>
 			<h1 class="text-3xl font-heading font-semibold">Sport</h1>
-			<p class="mt-4 max-w-2xl text-muted-foreground">TODO: Beschreibung – welche Sportarten, seit wann.</p>
+			<img
+				src="/images/sport/mimo-cycling.jpeg"
+				alt="Michael beim Radfahren"
+				class="mt-4 max-w-2xl rounded-lg border border-border"
+			/>
+			<p class="mt-4 max-w-2xl text-muted-foreground">Sport ist meine zweite Leidenschaft. Seit ca. 2014 halte ich mich regelmäßig fit. Das hat die Waage von ca. 97kg auf 80kg gedrückt ;)<br/><br/>
+				Das heißt:</p>
+			<ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground">
+				<li>Laufen (ca. 4km 5x/Woche)</li>
+				<li>Rennrad (ca. 150-200km/Woche), Solo oder mit Fit4Bike/Kllktv Weststraße</li>
+				<li>Fitness (3-4x/Woche Liegestütze, Klimmzüge, Deadhang, Core-Übungen, Calistenics)</li>
+			</ul>
+			<p class="mt-4 max-w-2xl text-muted-foreground">2018 hab ich dann das Ultracycling für mich entdeckt, d.h. Radetouren > 200km.<br><br>
+				Seit 2022 habe ich bereits 5x den in der Radsportszene anerkannten Ultracycling-Marathon "Elbspitze" gefinished - ein 2-tägiges Event, nonstop :)<br>
+				Start ist immer Dresden - Ziel jedes Jahr ein anderer Bergpass in den Alpen.</p>
+		</section>
+		<section>
+			<h1 class="text-1xl font-heading font-semibold">Sportliche Erfolge (chronologisch absteigend)</h1>
+			<ul class="mt-2 list-disc pl-5 text-sm text-shadow-muted-foreground">
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://elbspitze.de/track2026.php">Elbspitze 2026</a> - Dresden - Passo di Giau (779km/11900hm)</li>
+				<li class="p-1 ">️<a target="_blank" class="text-blue-500 underline" href="https://rund-um-sachsen.com/">RundUmSachsen500 2026</a> - P11/48, P1/Ü50</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://peace-ride.com/pages/epr-2025">️EuropeanPeaceRide 2025</a> - (Neuauflage Friedensfahrt)</li>
+				<li class="p-1">️<a target="_blank" class="text-blue-500 underline" href="https://elbspitze.de/track2025.php">Elbspitze 2025</a> - Dresden - Kaunertaler Gletscherstraße (759km/10800hm)</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://peace-ride.com/pages/epr-2024">EuropeanPeaceRide 2024</a> - (Neuauflage Friedensfahrt)</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://elbspitze.de/track2024.php">️Elbspitze 2024</a> - Dresden - Drei Zinnen (770km/12100hm)</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://fit4bike.de/porphyr-king">Everesting Porphyrking 2024</a> - (8848hm bergauf, nonstop)</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://peace-ride.com/pages/epr-2023">EuropeanPeaceRide 2023</a> - (Neuauflage Friedensfahrt)</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://elbspitze.de/track2023.php">️Elbspitze 2023</a> - Dresden - Passo di Gavia (777km/10700hm)</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://elbspitze.de/track2022.php">️Elbspitze 2022</a> - Dresden - Gerlitzen (763km/11200hm)</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://fit4bike.de/porphyr-king">Everesting Porphyrking 2022</a> - (8848hm bergauf, nonstop)</li>
+				<li class="p-1"><a target="_blank" class="text-blue-500 underline" href="https://www.fichkona-sports.de">Fichkona 2019</a> -️ Fichtelberg - KapArkona (Gruppe 1, vom Berg ans Meer)</li>
+			</ul>
 		</section>
 
+<!--
 		<section class="flex flex-col gap-4">
 			{
 				entries.map((entry) => (
@@ -26,6 +58,6 @@ const entries = (await getCollection('sport')).sort(
 					/>
 				))
 			}
-		</section>
+		</section>-->
 	</div>
 </Layout>
