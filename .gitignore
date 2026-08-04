@@ -31,3 +31,6 @@ pnpm-debug.log*
 .playwright-mcp/
 .vercel
 .env*
+
+# mkcert local dev certificates
+*.pem
