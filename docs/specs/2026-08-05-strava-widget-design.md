@@ -6,7 +6,7 @@ Show the athlete's latest 3 Strava activities on the Sport page, each with a
 Google Static Maps route image and key stats (distance, average speed,
 average heart rate, moving time), without introducing a second runtime or
 moving the site off its static-first architecture (see
-[ADR 0001](../../adr/0001-astro-tailwind-shadcn.md)).
+[ADR 0001](../adr/0001-astro-tailwind-shadcn.md)).
 
 ## Architecture
 
