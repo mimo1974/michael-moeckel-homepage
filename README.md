@@ -41,3 +41,21 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Strava activity sync
+
+The Sport page shows the latest 3 Strava activities, kept fresh by a daily
+GitHub Actions workflow (`.github/workflows/strava-sync.yml`). It requires
+these repo secrets (Settings → Secrets and variables → Actions):
+
+- `STRAVA_CLIENT_ID`, `STRAVA_CLIENT_SECRET` — from your Strava API
+  application (strava.com/settings/api).
+- `STRAVA_REFRESH_TOKEN` — obtained once via Strava's OAuth authorization
+  flow for that application.
+- `GOOGLE_MAPS_API_KEY` — a Google Cloud API key scoped to the Maps Static
+  API only, billing enabled.
+- `VERCEL_DEPLOY_HOOK_URL` — from the Vercel project's Settings → Git →
+  Deploy Hooks (needed because this project does not auto-deploy on push).
+
+Trigger a run manually via the Actions tab ("Strava Sync" → "Run workflow")
+to verify the secrets are correct before relying on the daily schedule.
