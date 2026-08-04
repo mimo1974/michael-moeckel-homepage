@@ -1,7 +1,7 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
-const logEntrySchema = z.object({
+export const logEntrySchema = z.object({
 	date: z.coerce.date(),
 	title: z.string(),
 	tags: z.array(z.string()).optional(),
