@@ -1,11 +1,6 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
-import LogEntryCard from '../../../components/LogEntryCard.astro';
-
-const entries = (await getCollection('sport')).sort(
-	(a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-);
+import StravaActivities from '../../../components/StravaActivities.astro';
 ---
 
 <Layout title="Sport">
@@ -46,18 +41,6 @@ const entries = (await getCollection('sport')).sort(
 			</ul>
 		</section>
 
-<!--
-		<section class="flex flex-col gap-4">
-			{
-				entries.map((entry) => (
-					<LogEntryCard
-						href={`/freizeit/sport/${entry.id}`}
-						title={entry.data.title}
-						date={entry.data.date}
-						tags={entry.data.tags}
-					/>
-				))
-			}
-		</section>-->
+		<StravaActivities />
 	</div>
 </Layout>
