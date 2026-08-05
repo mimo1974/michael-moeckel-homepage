@@ -9,6 +9,18 @@ interface Props {
 }
 
 const { title, description = 'Persönliche Website von Michael Möckel' } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImageURL = new URL('/images/sport/mimo-cycling.jpeg', Astro.site);
+const pageTitle = `${title} · Michael Möckel`;
+
+const personSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'Person',
+	name: 'Michael Möckel',
+	url: Astro.site?.toString(),
+	jobTitle: 'Freelance Senior PHP Engineer & Architekt',
+	sameAs: ['https://www.linkedin.com/in/michael-möckel-5a7ab161/', 'https://github.com/mimo1974'],
+};
 ---
 
 <!doctype html>
@@ -19,7 +31,20 @@ const { title, description = 'Persönliche Website von Michael Möckel' } = Astr
 		<meta name="viewport" content="width=device-width" />
 		<meta name="description" content={description} />
 		<meta name="generator" content={Astro.generator} />
-		<title>{title} · Michael Möckel</title>
+		<link rel="canonical" href={canonicalURL} />
+		<title>{pageTitle}</title>
+
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content={pageTitle} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonicalURL} />
+		<meta property="og:image" content={ogImageURL} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={pageTitle} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImageURL} />
+
+		<script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
 	</head>
 	<body class="min-h-screen bg-background text-foreground antialiased">
 		<Starfield />
