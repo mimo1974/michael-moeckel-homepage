@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19613705675,
+		"name": "Easy 8kg 🎒🥵",
+		"date": "2026-08-05T14:29:39Z",
+		"distanceKm": 4.4,
+		"avgSpeedKmh": 9.7,
+		"avgHeartRate": 120,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 28,
+		"mapImage": "/images/strava/activity-19613705675.png"
+	},
+	{
 		"id": 19606008358,
 		"name": "Base 🏃",
 		"date": "2026-08-04T11:15:22Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 70,
 		"mapImage": "/images/strava/activity-19585421586.png"
-	},
-	{
-		"id": 19575778563,
-		"name": "🌄 🚴🚴 mit Matti ❤️",
-		"date": "2026-08-02T18:47:01Z",
-		"distanceKm": 36.4,
-		"avgSpeedKmh": 27.6,
-		"avgHeartRate": 108,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 79,
-		"mapImage": "/images/strava/activity-19575778563.png"
 	}
 ]
