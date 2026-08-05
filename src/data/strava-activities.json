@@ -6,6 +6,8 @@
 		"distanceKm": 5.6,
 		"avgSpeedKmh": 12.2,
 		"avgHeartRate": 146,
+		"avgWatts": null,
+		"normalizedPower": null,
 		"movingTimeMinutes": 27,
 		"mapImage": "/images/strava/activity-19606008358.png"
 	},
@@ -16,6 +18,8 @@
 		"distanceKm": 7,
 		"avgSpeedKmh": 6,
 		"avgHeartRate": 100,
+		"avgWatts": null,
+		"normalizedPower": null,
 		"movingTimeMinutes": 70,
 		"mapImage": "/images/strava/activity-19585421586.png"
 	},
@@ -26,6 +30,8 @@
 		"distanceKm": 36.4,
 		"avgSpeedKmh": 27.6,
 		"avgHeartRate": 108,
+		"avgWatts": null,
+		"normalizedPower": null,
 		"movingTimeMinutes": 79,
 		"mapImage": "/images/strava/activity-19575778563.png"
 	}

@@ -7,6 +7,8 @@ export const activityRecordSchema = z.object({
 	distanceKm: z.number(),
 	avgSpeedKmh: z.number(),
 	avgHeartRate: z.number().nullable(),
+	avgWatts: z.number().nullable(),
+	normalizedPower: z.number().nullable(),
 	movingTimeMinutes: z.number(),
 	mapImage: z.string().nullable(),
 });
