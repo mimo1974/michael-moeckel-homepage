@@ -10,13 +10,15 @@ describe('activityRecordSchema', () => {
 			distanceKm: 42.3,
 			avgSpeedKmh: 28.1,
 			avgHeartRate: 142,
+			avgWatts: 188,
+			normalizedPower: 201,
 			movingTimeMinutes: 91,
 			mapImage: '/images/strava/activity-123.png',
 		});
 		expect(result.success).toBe(true);
 	});
 
-	it('accepts a record with a null map image and null heart rate', () => {
+	it('accepts a record with a null map image, heart rate, and power fields', () => {
 		const result = activityRecordSchema.safeParse({
 			id: 123,
 			name: 'Morning Ride',
@@ -24,6 +26,8 @@ describe('activityRecordSchema', () => {
 			distanceKm: 42.3,
 			avgSpeedKmh: 28.1,
 			avgHeartRate: null,
+			avgWatts: null,
+			normalizedPower: null,
 			movingTimeMinutes: 91,
 			mapImage: null,
 		});

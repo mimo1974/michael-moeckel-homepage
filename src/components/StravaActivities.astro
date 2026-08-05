@@ -8,6 +8,8 @@ interface ActivityRecord {
 	distanceKm: number;
 	avgSpeedKmh: number;
 	avgHeartRate: number | null;
+	avgWatts: number | null;
+	normalizedPower: number | null;
 	movingTimeMinutes: number;
 	mapImage: string | null;
 }
@@ -40,6 +42,8 @@ const records = activities as ActivityRecord[];
 					<li>Distanz: {activity.distanceKm} km</li>
 					<li>Ø Geschwindigkeit: {activity.avgSpeedKmh} km/h</li>
 					{activity.avgHeartRate && <li>Ø Herzfrequenz: {activity.avgHeartRate} bpm</li>}
+					{activity.avgWatts && <li>Ø Leistung: {activity.avgWatts} W</li>}
+					{activity.normalizedPower && <li>Normalisierte Leistung: {activity.normalizedPower} W</li>}
 					<li>Dauer: {activity.movingTimeMinutes} min</li>
 				</ul>
 			</a>
