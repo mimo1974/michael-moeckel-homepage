@@ -18,7 +18,13 @@ const records = activities as ActivityRecord[];
 {records.length > 0 && (
 	<section class="mt-8 grid gap-6 sm:grid-cols-3">
 		{records.map((activity) => (
-			<div class="rounded-lg border border-border p-4">
+			<a
+				href={`https://www.strava.com/activities/${activity.id}`}
+				target="_blank"
+				rel="noreferrer"
+				title={`Auf Strava ansehen: ${activity.name}`}
+				class="block rounded-lg border border-border p-4 transition-colors hover:border-foreground"
+			>
 				{activity.mapImage && (
 					<img
 						src={activity.mapImage}
@@ -36,7 +42,7 @@ const records = activities as ActivityRecord[];
 					{activity.avgHeartRate && <li>Ø Herzfrequenz: {activity.avgHeartRate} bpm</li>}
 					<li>Dauer: {activity.movingTimeMinutes} min</li>
 				</ul>
-			</div>
+			</a>
 		))}
 	</section>
 )}
