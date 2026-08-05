@@ -1,0 +1,42 @@
+---
+import activities from '../data/strava-activities.json';
+
+interface ActivityRecord {
+	id: number;
+	name: string;
+	date: string;
+	distanceKm: number;
+	avgSpeedKmh: number;
+	avgHeartRate: number | null;
+	movingTimeMinutes: number;
+	mapImage: string | null;
+}
+
+const records = activities as ActivityRecord[];
+---
+
+{records.length > 0 && (
+	<section class="mt-8 grid gap-6 sm:grid-cols-3">
+		{records.map((activity) => (
+			<div class="rounded-lg border border-border p-4">
+				{activity.mapImage && (
+					<img
+						src={activity.mapImage}
+						alt={`Strecke: ${activity.name}`}
+						class="mb-3 w-full rounded-md"
+					/>
+				)}
+				<h3 class="font-heading font-semibold">{activity.name}</h3>
+				<p class="text-sm text-muted-foreground">
+					{new Date(activity.date).toLocaleDateString('de-DE')}
+				</p>
+				<ul class="mt-2 space-y-1 text-sm text-muted-foreground">
+					<li>Distanz: {activity.distanceKm} km</li>
+					<li>Ø Geschwindigkeit: {activity.avgSpeedKmh} km/h</li>
+					{activity.avgHeartRate && <li>Ø Herzfrequenz: {activity.avgHeartRate} bpm</li>}
+					<li>Dauer: {activity.movingTimeMinutes} min</li>
+				</ul>
+			</div>
+		))}
+	</section>
+)}
