@@ -1,5 +1,15 @@
 [
 	{
+		"id": 19606008358,
+		"name": "Base 🏃",
+		"date": "2026-08-04T11:15:22Z",
+		"distanceKm": 5.6,
+		"avgSpeedKmh": 12.2,
+		"avgHeartRate": 146,
+		"movingTimeMinutes": 27,
+		"mapImage": "/images/strava/activity-19606008358.png"
+	},
+	{
 		"id": 19585421586,
 		"name": "🏃🚶 15kg 🎒 🌞",
 		"date": "2026-08-03T14:54:40Z",
@@ -18,15 +28,5 @@
 		"avgHeartRate": 108,
 		"movingTimeMinutes": 79,
 		"mapImage": "/images/strava/activity-19575778563.png"
-	},
-	{
-		"id": 19546058166,
-		"name": "Easy 🏃🌤️",
-		"date": "2026-07-31T17:50:54Z",
-		"distanceKm": 4.4,
-		"avgSpeedKmh": 8.7,
-		"avgHeartRate": 127,
-		"movingTimeMinutes": 31,
-		"mapImage": "/images/strava/activity-19546058166.png"
 	}
 ]
