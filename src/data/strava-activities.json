@@ -1,1 +1,32 @@
-[]
+[
+	{
+		"id": 19585421586,
+		"name": "🏃🚶 15kg 🎒 🌞",
+		"date": "2026-08-03T14:54:40Z",
+		"distanceKm": 7,
+		"avgSpeedKmh": 6,
+		"avgHeartRate": 100,
+		"movingTimeMinutes": 70,
+		"mapImage": "/images/strava/activity-19585421586.png"
+	},
+	{
+		"id": 19575778563,
+		"name": "🌄 🚴🚴 mit Matti ❤️",
+		"date": "2026-08-02T18:47:01Z",
+		"distanceKm": 36.4,
+		"avgSpeedKmh": 27.6,
+		"avgHeartRate": 108,
+		"movingTimeMinutes": 79,
+		"mapImage": "/images/strava/activity-19575778563.png"
+	},
+	{
+		"id": 19546058166,
+		"name": "Easy 🏃🌤️",
+		"date": "2026-07-31T17:50:54Z",
+		"distanceKm": 4.4,
+		"avgSpeedKmh": 8.7,
+		"avgHeartRate": 127,
+		"movingTimeMinutes": 31,
+		"mapImage": "/images/strava/activity-19546058166.png"
+	}
+]
