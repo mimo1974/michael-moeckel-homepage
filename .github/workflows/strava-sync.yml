@@ -33,7 +33,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: update Strava activity data'
-          file_pattern: 'src/data/strava-activities.json public/images/strava/*.png'
+          file_pattern: 'src/data/strava-activities.json public/images/strava/'
 
       - name: Trigger Vercel deploy
         if: steps.commit.outputs.changes_detected == 'true'

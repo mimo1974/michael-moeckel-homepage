@@ -5,6 +5,7 @@ import { refreshAccessToken, fetchLatestActivities } from './strava';
 import { buildStaticMapUrl } from './googleMaps';
 import { toActivityRecord } from './transform';
 import { hasNewActivities } from './diff';
+import { findStaleImages } from './prune';
 import { activityRecordSchema, type ActivityRecord } from './schema';
 
 const ACTIVITY_COUNT = 3;
@@ -58,6 +59,18 @@ async function main(): Promise<void> {
 
 	fs.writeFileSync(DATA_PATH, JSON.stringify(records, null, '\t') + '\n');
 	console.log(`Wrote ${records.length} activities to ${DATA_PATH}`);
+
+	const existingFiles = fs.readdirSync(IMAGES_DIR);
+	const staleFiles = findStaleImages(
+		existingFiles,
+		records.map((record) => record.mapImage),
+	);
+	for (const file of staleFiles) {
+		fs.unlinkSync(path.join(IMAGES_DIR, file));
+	}
+	if (staleFiles.length > 0) {
+		console.log(`Removed ${staleFiles.length} stale image(s): ${staleFiles.join(', ')}`);
+	}
 }
 
 main().catch((error) => {
