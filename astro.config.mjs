@@ -5,6 +5,7 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
+import vercel from '@astrojs/vercel';
 
 const certPath = './localhost+2.pem';
 const keyPath = './localhost+2-key.pem';
@@ -26,5 +27,6 @@ export default defineConfig({
     },
   },
 
-  integrations: [react(), sitemap()]
+  integrations: [react(), sitemap()],
+  adapter: vercel(),
 });
