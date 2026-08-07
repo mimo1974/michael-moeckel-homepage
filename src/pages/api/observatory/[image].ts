@@ -7,6 +7,7 @@ const IMAGE_CONTENT_TYPES: Record<string, string> = {
 	'sqmleg.gif': 'image/gif',
 	'Capture.jpg': 'image/jpeg',
 	'AAG_ImageCloudCondition.png': 'image/png',
+	'dome.jpg': 'image/jpeg',
 };
 
 export const GET: APIRoute = async ({ params }) => {
