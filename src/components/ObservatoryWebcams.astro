@@ -1,0 +1,25 @@
+---
+const webcams = [
+	{ filename: 'webcam1.jpg', alt: 'Livebild Sternwarte' },
+	{ filename: 'sqmleg.gif', alt: 'SQM-Verlauf (Himmelshelligkeit)' },
+	{ filename: 'Capture.jpg', alt: 'All-Sky-Kamera' },
+	{ filename: 'AAG_ImageCloudCondition.png', alt: 'Wolkenbedeckung' },
+];
+---
+
+<section>
+	<h2 class="text-xl font-heading font-semibold">Live von der Sternwarte</h2>
+	<p class="mt-2 max-w-2xl text-sm text-muted-foreground">
+		Live-Daten der Sternwarte in Jeßnigk, bereitgestellt vom AstroTeam Elbe-Elster e.V.
+	</p>
+	<div class="mt-4 grid gap-6 sm:grid-cols-2">
+		{
+			webcams.map((cam) => (
+				<figure class="rounded-lg border border-border p-3">
+					<img src={`/api/observatory/${cam.filename}`} alt={cam.alt} class="w-full rounded-md" loading="eager" />
+					<figcaption class="mt-2 text-sm text-muted-foreground">{cam.alt}</figcaption>
+				</figure>
+			))
+		}
+	</div>
+</section>
