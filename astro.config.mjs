@@ -4,6 +4,7 @@ import { defineConfig } from 'astro/config';
 
 import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
+import sitemap from '@astrojs/sitemap';
 
 const certPath = './localhost+2.pem';
 const keyPath = './localhost+2-key.pem';
@@ -11,6 +12,8 @@ const hasLocalCerts = fs.existsSync(certPath) && fs.existsSync(keyPath);
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://michael-moeckel.de',
+
   vite: {
     plugins: [tailwindcss()],
     server: {
@@ -23,5 +26,5 @@ export default defineConfig({
     },
   },
 
-  integrations: [react()]
+  integrations: [react(), sitemap()]
 });
