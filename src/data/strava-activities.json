@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19646625180,
+		"name": "1xSüdhang (Medenec) ⛰️ + Keilberg ⛰️ mit Matti  ❤️ 🚴 🚴 🌞",
+		"date": "2026-08-07T11:41:03Z",
+		"distanceKm": 173.5,
+		"avgSpeedKmh": 25.7,
+		"avgHeartRate": 106,
+		"avgWatts": 185,
+		"normalizedPower": 221,
+		"movingTimeMinutes": 404,
+		"mapImage": "/images/strava/activity-19646625180.png"
+	},
+	{
 		"id": 19613705675,
 		"name": "Easy 8kg 🎒🥵",
 		"date": "2026-08-05T14:29:39Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 27,
 		"mapImage": "/images/strava/activity-19606008358.png"
-	},
-	{
-		"id": 19585421586,
-		"name": "🏃🚶 15kg 🎒 🌞",
-		"date": "2026-08-03T14:54:40Z",
-		"distanceKm": 7,
-		"avgSpeedKmh": 6,
-		"avgHeartRate": 100,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 70,
-		"mapImage": "/images/strava/activity-19585421586.png"
 	}
 ]
