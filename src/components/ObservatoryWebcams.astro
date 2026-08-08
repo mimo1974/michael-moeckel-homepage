@@ -1,10 +1,11 @@
 ---
 const webcams = [
-	{ filename: 'webcam1.jpg', alt: 'Livebild Sternwarte' },
+	{ filename: 'webcam1.jpg', alt: 'Livebild Sternwarte', span: true },
+	{ filename: 'Capture.jpg', alt: 'All-Sky-Kamera', span: true },
+	{ filename: 'dome.jpg', alt: 'Kuppel', span: true },
+	{ filename: 'AAG_ImageCloudCondition.png', alt: 'Wolkenbedeckung', style: 'height: 140px' },
+	{ filename: 'AAG_ImageRainCondition.png', alt: 'Regen', style: 'height: 140px' },
 	{ filename: 'sqmleg.gif', alt: 'SQM-Verlauf (Himmelshelligkeit)' },
-	{ filename: 'Capture.jpg', alt: 'All-Sky-Kamera' },
-	{ filename: 'AAG_ImageCloudCondition.png', alt: 'Wolkenbedeckung' },
-	{ filename: 'dome.jpg', alt: 'Kuppel' },
 ];
 ---
 
@@ -16,9 +17,9 @@ const webcams = [
 	<div class="mt-4 grid gap-6 sm:grid-cols-2">
 		{
 			webcams.map((cam) => (
-				<figure class="rounded-lg border border-border p-3">
+				<figure class:list={['rounded-lg border border-border p-3', { 'sm:col-span-2': cam.span }]}>
 					<a href="http://elsterland-sternwarte.de" target="_blank" rel="noopener noreferrer">
-						<img src={`/api/observatory/${cam.filename}`} alt={cam.alt} class="w-full rounded-md" loading="eager" />
+						<img src={`/api/observatory/${cam.filename}`} alt={cam.alt} style={cam.style} class="w-full rounded-md" loading="eager" />
 					</a>
 					<figcaption class="mt-2 text-sm text-muted-foreground">{cam.alt}</figcaption>
 				</figure>
