@@ -17,7 +17,9 @@ const webcams = [
 		{
 			webcams.map((cam) => (
 				<figure class="rounded-lg border border-border p-3">
-					<img src={`/api/observatory/${cam.filename}`} alt={cam.alt} class="w-full rounded-md" loading="eager" />
+					<a href="http://elsterland-sternwarte.de" target="_blank" rel="noopener noreferrer">
+						<img src={`/api/observatory/${cam.filename}`} alt={cam.alt} class="w-full rounded-md" loading="eager" />
+					</a>
 					<figcaption class="mt-2 text-sm text-muted-foreground">{cam.alt}</figcaption>
 				</figure>
 			))
