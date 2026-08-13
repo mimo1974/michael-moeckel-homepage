@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19717196143,
+		"name": "AlpenGravel 🇩🇪 🇦🇹 - Um den Daniel 🏔️🏔️🏔️ mit Mia+Matti ❤️ 🚴 🚴🚴🌞",
+		"date": "2026-08-11T11:10:42Z",
+		"distanceKm": 75,
+		"avgSpeedKmh": 14.7,
+		"avgHeartRate": 110,
+		"avgWatts": 128,
+		"normalizedPower": null,
+		"movingTimeMinutes": 306,
+		"mapImage": "/images/strava/activity-19717196143.png"
+	},
+	{
 		"id": 19659328112,
 		"name": "🌄 8kg 🎒",
 		"date": "2026-08-08T17:11:33Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": 221,
 		"movingTimeMinutes": 404,
 		"mapImage": "/images/strava/activity-19646625180.png"
-	},
-	{
-		"id": 19613705675,
-		"name": "Easy 8kg 🎒🥵",
-		"date": "2026-08-05T14:29:39Z",
-		"distanceKm": 4.4,
-		"avgSpeedKmh": 9.7,
-		"avgHeartRate": 120,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 28,
-		"mapImage": "/images/strava/activity-19613705675.png"
 	}
 ]
