@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19731626408,
+		"name": "AlpSpiX 🥾 🏔️ 🌞",
+		"date": "2026-08-13T10:21:56Z",
+		"distanceKm": 18.1,
+		"avgSpeedKmh": 4.2,
+		"avgHeartRate": 70,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 257,
+		"mapImage": "/images/strava/activity-19731626408.png"
+	},
+	{
 		"id": 19717196143,
 		"name": "AlpenGravel 🇩🇪 🇦🇹 - Um den Daniel 🏔️🏔️🏔️ mit Mia+Matti ❤️ 🚴 🚴🚴🌞",
 		"date": "2026-08-11T11:10:42Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 96,
 		"mapImage": "/images/strava/activity-19659328112.png"
-	},
-	{
-		"id": 19646625180,
-		"name": "1xSüdhang (Medenec) ⛰️ + Keilberg ⛰️ mit Matti  ❤️ 🚴 🚴 🌞",
-		"date": "2026-08-07T11:41:03Z",
-		"distanceKm": 173.5,
-		"avgSpeedKmh": 25.7,
-		"avgHeartRate": 106,
-		"avgWatts": 185,
-		"normalizedPower": 221,
-		"movingTimeMinutes": 404,
-		"mapImage": "/images/strava/activity-19646625180.png"
 	}
 ]
