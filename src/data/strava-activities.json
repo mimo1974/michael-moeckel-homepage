@@ -12,6 +12,18 @@
 		"mapImage": "/images/strava/activity-19751955749.png"
 	},
 	{
+		"id": 19743687035,
+		"name": "🦵  lockern nach Heimfahrt 🚗",
+		"date": "2026-08-14T19:51:35Z",
+		"distanceKm": 6.7,
+		"avgSpeedKmh": 10.5,
+		"avgHeartRate": 122,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 38,
+		"mapImage": "/images/strava/activity-19743687035.png"
+	},
+	{
 		"id": 19731626408,
 		"name": "AlpSpiX (Osterfelderkopf) 🥾 🏔️ 🌞",
 		"date": "2026-08-13T10:21:56Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 257,
 		"mapImage": "/images/strava/activity-19731626408.png"
-	},
-	{
-		"id": 19717196143,
-		"name": "AlpenGravel 🇩🇪 🇦🇹 - Um den Daniel 🏔️🏔️🏔️ mit Mia+Matti ❤️ 🚴 🚴🚴🌞",
-		"date": "2026-08-11T11:10:42Z",
-		"distanceKm": 75,
-		"avgSpeedKmh": 14.7,
-		"avgHeartRate": 110,
-		"avgWatts": 128,
-		"normalizedPower": null,
-		"movingTimeMinutes": 306,
-		"mapImage": "/images/strava/activity-19717196143.png"
 	}
 ]
