@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19771760368,
+		"name": "MTB Geburtstagsfeier  🎂 Matti ❤️ 1️⃣6️⃣",
+		"date": "2026-08-15T13:01:17Z",
+		"distanceKm": 3.8,
+		"avgSpeedKmh": 25.3,
+		"avgHeartRate": 132,
+		"avgWatts": 279,
+		"normalizedPower": null,
+		"movingTimeMinutes": 9,
+		"mapImage": "/images/strava/activity-19771760368.png"
+	},
+	{
 		"id": 19751955749,
 		"name": "Into the heat 🫠 🚴 📊 50min",
 		"date": "2026-08-15T11:22:31Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 38,
 		"mapImage": "/images/strava/activity-19743687035.png"
-	},
-	{
-		"id": 19731626408,
-		"name": "AlpSpiX (Osterfelderkopf) 🥾 🏔️ 🌞",
-		"date": "2026-08-13T10:21:56Z",
-		"distanceKm": 18.1,
-		"avgSpeedKmh": 4.2,
-		"avgHeartRate": 70,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 257,
-		"mapImage": "/images/strava/activity-19731626408.png"
 	}
 ]
