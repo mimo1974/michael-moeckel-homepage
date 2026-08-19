@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19784142463,
+		"name": "Masuren - Port Sztynort ➡️ Kietllice - Team-⛵⛵⛵",
+		"date": "2026-08-17T14:02:39Z",
+		"distanceKm": 14.3,
+		"avgSpeedKmh": 5.1,
+		"avgHeartRate": 70,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 168,
+		"mapImage": "/images/strava/activity-19784142463.png"
+	},
+	{
 		"id": 19771760368,
 		"name": "MTB Geburtstagsfeier  🎂 Matti ❤️ 1️⃣6️⃣",
 		"date": "2026-08-15T13:01:17Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": 280,
 		"movingTimeMinutes": 49,
 		"mapImage": "/images/strava/activity-19751955749.png"
-	},
-	{
-		"id": 19743687035,
-		"name": "🦵  lockern nach Heimfahrt 🚗",
-		"date": "2026-08-14T19:51:35Z",
-		"distanceKm": 6.7,
-		"avgSpeedKmh": 10.5,
-		"avgHeartRate": 122,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 38,
-		"mapImage": "/images/strava/activity-19743687035.png"
 	}
 ]
