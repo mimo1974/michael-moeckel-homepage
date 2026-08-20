@@ -1,5 +1,29 @@
 [
 	{
+		"id": 19796181667,
+		"name": "Mamerki (Mauerwald) ➡️ 🏊  Cold angle Binduga Zimny kąt",
+		"date": "2026-08-18T13:25:46Z",
+		"distanceKm": 18.8,
+		"avgSpeedKmh": 6.8,
+		"avgHeartRate": 74,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 165,
+		"mapImage": "/images/strava/activity-19796181667.png"
+	},
+	{
+		"id": 19791271623,
+		"name": "Kietlice ➡️ Mamerki (Mauerwald) ⛵🌤️",
+		"date": "2026-08-18T08:28:51Z",
+		"distanceKm": 8.6,
+		"avgSpeedKmh": 5.6,
+		"avgHeartRate": 74,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 92,
+		"mapImage": "/images/strava/activity-19791271623.png"
+	},
+	{
 		"id": 19784142463,
 		"name": "Masuren - Port Sztynort ➡️ Kietllice - Team-⛵⛵⛵",
 		"date": "2026-08-17T14:02:39Z",
@@ -10,29 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 168,
 		"mapImage": "/images/strava/activity-19784142463.png"
-	},
-	{
-		"id": 19771760368,
-		"name": "MTB Geburtstagsfeier  🎂 Matti ❤️ 1️⃣6️⃣",
-		"date": "2026-08-15T13:01:17Z",
-		"distanceKm": 3.8,
-		"avgSpeedKmh": 25.3,
-		"avgHeartRate": 132,
-		"avgWatts": 279,
-		"normalizedPower": null,
-		"movingTimeMinutes": 9,
-		"mapImage": "/images/strava/activity-19771760368.png"
-	},
-	{
-		"id": 19751955749,
-		"name": "Into the heat 🫠 🚴 📊 50min",
-		"date": "2026-08-15T11:22:31Z",
-		"distanceKm": 30.4,
-		"avgSpeedKmh": 36.9,
-		"avgHeartRate": 62,
-		"avgWatts": 272,
-		"normalizedPower": 280,
-		"movingTimeMinutes": 49,
-		"mapImage": "/images/strava/activity-19751955749.png"
 	}
 ]
