@@ -1,5 +1,29 @@
 [
 	{
+		"id": 19828535098,
+		"name": "🌄 🚴 48min@SS  - Formerhalt",
+		"date": "2026-08-20T19:07:54Z",
+		"distanceKm": 30.5,
+		"avgSpeedKmh": 38.1,
+		"avgHeartRate": 123,
+		"avgWatts": 286,
+		"normalizedPower": 287,
+		"movingTimeMinutes": 48,
+		"mapImage": "/images/strava/activity-19828535098.png"
+	},
+	{
+		"id": 19797457449,
+		"name": "🏊  Cold angle Binduga Zimny kąt",
+		"date": "2026-08-18T17:07:46Z",
+		"distanceKm": 1,
+		"avgSpeedKmh": 2.4,
+		"avgHeartRate": 114,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 25,
+		"mapImage": "/images/strava/activity-19797457449.png"
+	},
+	{
 		"id": 19796181667,
 		"name": "Mamerki (Mauerwald) ➡️ 🏊  Cold angle Binduga Zimny kąt",
 		"date": "2026-08-18T13:25:46Z",
@@ -10,29 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 165,
 		"mapImage": "/images/strava/activity-19796181667.png"
-	},
-	{
-		"id": 19791271623,
-		"name": "Kietlice ➡️ Mamerki (Mauerwald) ⛵🌤️",
-		"date": "2026-08-18T08:28:51Z",
-		"distanceKm": 8.6,
-		"avgSpeedKmh": 5.6,
-		"avgHeartRate": 74,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 92,
-		"mapImage": "/images/strava/activity-19791271623.png"
-	},
-	{
-		"id": 19784142463,
-		"name": "Masuren - Port Sztynort ➡️ Kietllice - Team-⛵⛵⛵",
-		"date": "2026-08-17T14:02:39Z",
-		"distanceKm": 14.3,
-		"avgSpeedKmh": 5.1,
-		"avgHeartRate": 70,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 168,
-		"mapImage": "/images/strava/activity-19784142463.png"
 	}
 ]
