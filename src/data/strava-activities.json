@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19870375049,
+		"name": "🌄  💯 ⚡",
+		"date": "2026-08-23T15:57:58Z",
+		"distanceKm": 100.3,
+		"avgSpeedKmh": 31.6,
+		"avgHeartRate": 110,
+		"avgWatts": 225,
+		"normalizedPower": 245,
+		"movingTimeMinutes": 190,
+		"mapImage": "/images/strava/activity-19870375049.png"
+	},
+	{
 		"id": 19828535098,
 		"name": "🌄 🚴 48min@SS  - Formerhalt",
 		"date": "2026-08-20T19:07:54Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 25,
 		"mapImage": "/images/strava/activity-19797457449.png"
-	},
-	{
-		"id": 19796181667,
-		"name": "Mamerki (Mauerwald) ➡️ 🏊  Cold angle Binduga Zimny kąt",
-		"date": "2026-08-18T13:25:46Z",
-		"distanceKm": 18.8,
-		"avgSpeedKmh": 6.8,
-		"avgHeartRate": 74,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 165,
-		"mapImage": "/images/strava/activity-19796181667.png"
 	}
 ]
