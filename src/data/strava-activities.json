@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19879403996,
+		"name": "🏃🚶 8kg 🎒🌤️",
+		"date": "2026-08-24T13:57:44Z",
+		"distanceKm": 6.5,
+		"avgSpeedKmh": 6.3,
+		"avgHeartRate": 122,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 61,
+		"mapImage": "/images/strava/activity-19879403996.png"
+	},
+	{
 		"id": 19870375049,
 		"name": "🌄  💯 ⚡",
 		"date": "2026-08-23T15:57:58Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": 287,
 		"movingTimeMinutes": 48,
 		"mapImage": "/images/strava/activity-19828535098.png"
-	},
-	{
-		"id": 19797457449,
-		"name": "🏊  Cold angle Binduga Zimny kąt",
-		"date": "2026-08-18T17:07:46Z",
-		"distanceKm": 1,
-		"avgSpeedKmh": 2.4,
-		"avgHeartRate": 114,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 25,
-		"mapImage": "/images/strava/activity-19797457449.png"
 	}
 ]
