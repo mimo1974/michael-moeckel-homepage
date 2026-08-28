@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19923164600,
+		"name": "Speed 🏃 🌞",
+		"date": "2026-08-27T13:45:39Z",
+		"distanceKm": 5.6,
+		"avgSpeedKmh": 12.7,
+		"avgHeartRate": 145,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 26,
+		"mapImage": "/images/strava/activity-19923164600.png"
+	},
+	{
 		"id": 19879403996,
 		"name": "🏃🚶 8kg 🎒🌤️",
 		"date": "2026-08-24T13:57:44Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": 245,
 		"movingTimeMinutes": 190,
 		"mapImage": "/images/strava/activity-19870375049.png"
-	},
-	{
-		"id": 19828535098,
-		"name": "🌄 🚴 48min@SS  - Formerhalt",
-		"date": "2026-08-20T19:07:54Z",
-		"distanceKm": 30.5,
-		"avgSpeedKmh": 38.1,
-		"avgHeartRate": 123,
-		"avgWatts": 286,
-		"normalizedPower": 287,
-		"movingTimeMinutes": 48,
-		"mapImage": "/images/strava/activity-19828535098.png"
 	}
 ]
