@@ -1,5 +1,17 @@
 [
 	{
+		"id": 19965729862,
+		"name": "🏃 🚶 5kg 🎒 🌤️",
+		"date": "2026-08-30T13:24:16Z",
+		"distanceKm": 8.9,
+		"avgSpeedKmh": 5.6,
+		"avgHeartRate": 81,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 94,
+		"mapImage": "/images/strava/activity-19965729862.png"
+	},
+	{
 		"id": 19954241939,
 		"name": "🌄Afterwork 🚴 Intervalle 5min@L4 + 1min@L6",
 		"date": "2026-08-29T18:31:54Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 26,
 		"mapImage": "/images/strava/activity-19923164600.png"
-	},
-	{
-		"id": 19879403996,
-		"name": "🏃🚶 8kg 🎒🌤️",
-		"date": "2026-08-24T13:57:44Z",
-		"distanceKm": 6.5,
-		"avgSpeedKmh": 6.3,
-		"avgHeartRate": 122,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 61,
-		"mapImage": "/images/strava/activity-19879403996.png"
 	}
 ]
