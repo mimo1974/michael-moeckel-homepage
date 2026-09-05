@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20021844966,
+		"name": "🏃🚶 7kg 🎒",
+		"date": "2026-09-03T14:53:57Z",
+		"distanceKm": 5.6,
+		"avgSpeedKmh": 7.2,
+		"avgHeartRate": 100,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 46,
+		"mapImage": "/images/strava/activity-20021844966.png"
+	},
+	{
 		"id": 20003390621,
 		"name": "Aktive Mittagsoause kurz 🏃🌤️",
 		"date": "2026-09-02T10:43:30Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 26,
 		"mapImage": "/images/strava/activity-19992712751.png"
-	},
-	{
-		"id": 19965729862,
-		"name": "🏃 🚶 5kg 🎒 🌤️",
-		"date": "2026-08-30T13:24:16Z",
-		"distanceKm": 8.9,
-		"avgSpeedKmh": 5.6,
-		"avgHeartRate": 81,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 94,
-		"mapImage": "/images/strava/activity-19965729862.png"
 	}
 ]
