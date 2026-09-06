@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20035837261,
+		"name": "🏃 9kg 🎒🌥️",
+		"date": "2026-09-04T16:01:59Z",
+		"distanceKm": 6.7,
+		"avgSpeedKmh": 9.4,
+		"avgHeartRate": null,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 43,
+		"mapImage": "/images/strava/activity-20035837261.png"
+	},
+	{
 		"id": 20021844966,
 		"name": "🏃🚶 7kg 🎒",
 		"date": "2026-09-03T14:53:57Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 12,
 		"mapImage": "/images/strava/activity-20003390621.png"
-	},
-	{
-		"id": 19992712751,
-		"name": "Base 🏃 6kg 🎒 🌞",
-		"date": "2026-09-01T16:10:51Z",
-		"distanceKm": 4.4,
-		"avgSpeedKmh": 10.2,
-		"avgHeartRate": 143,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 26,
-		"mapImage": "/images/strava/activity-19992712751.png"
 	}
 ]
