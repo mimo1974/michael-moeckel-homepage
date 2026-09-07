@@ -1,38 +1,38 @@
 [
 	{
-		"id": 20035837261,
-		"name": "🏃 9kg 🎒🌥️",
-		"date": "2026-09-04T16:01:59Z",
-		"distanceKm": 6.7,
-		"avgSpeedKmh": 9.4,
-		"avgHeartRate": null,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 43,
-		"mapImage": "/images/strava/activity-20035837261.png"
+		"id": 20067134281,
+		"name": "40min@SS 🔦",
+		"date": "2026-09-06T20:37:14Z",
+		"distanceKm": 30.1,
+		"avgSpeedKmh": 38,
+		"avgHeartRate": 131,
+		"avgWatts": 291,
+		"normalizedPower": 295,
+		"movingTimeMinutes": 47,
+		"mapImage": "/images/strava/activity-20067134281.png"
 	},
 	{
-		"id": 20021844966,
-		"name": "🏃🚶 7kg 🎒",
-		"date": "2026-09-03T14:53:57Z",
-		"distanceKm": 5.6,
-		"avgSpeedKmh": 7.2,
-		"avgHeartRate": 100,
+		"id": 20063173877,
+		"name": "8x40s + 1x220s  📊 🏃🌞 Stimulus Nüchtern",
+		"date": "2026-09-06T15:01:36Z",
+		"distanceKm": 4.4,
+		"avgSpeedKmh": 12.2,
+		"avgHeartRate": 149,
 		"avgWatts": null,
 		"normalizedPower": null,
-		"movingTimeMinutes": 46,
-		"mapImage": "/images/strava/activity-20021844966.png"
+		"movingTimeMinutes": 22,
+		"mapImage": "/images/strava/activity-20063173877.png"
 	},
 	{
-		"id": 20003390621,
-		"name": "Aktive Mittagsoause kurz 🏃🌤️",
-		"date": "2026-09-02T10:43:30Z",
-		"distanceKm": 2.2,
-		"avgSpeedKmh": 10.8,
-		"avgHeartRate": 153,
+		"id": 20047286268,
+		"name": "Kurz 🏃 9kg 🎒 🌞",
+		"date": "2026-09-05T13:14:46Z",
+		"distanceKm": 3.8,
+		"avgSpeedKmh": 8.7,
+		"avgHeartRate": 111,
 		"avgWatts": null,
 		"normalizedPower": null,
-		"movingTimeMinutes": 12,
-		"mapImage": "/images/strava/activity-20003390621.png"
+		"movingTimeMinutes": 26,
+		"mapImage": "/images/strava/activity-20047286268.png"
 	}
 ]
