@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/application", "destination": "/api/application_track" }
+  ]
+}
