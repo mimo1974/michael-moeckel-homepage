@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20117075490,
+		"name": "Erledigungen 🏃🌥️",
+		"date": "2026-09-10T12:51:33Z",
+		"distanceKm": 6.7,
+		"avgSpeedKmh": 10.1,
+		"avgHeartRate": null,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 40,
+		"mapImage": "/images/strava/activity-20117075490.png"
+	},
+	{
 		"id": 20067134281,
 		"name": "40min@SS 🔦",
 		"date": "2026-09-06T20:37:14Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 22,
 		"mapImage": "/images/strava/activity-20063173877.png"
-	},
-	{
-		"id": 20047286268,
-		"name": "Kurz 🏃 9kg 🎒 🌞",
-		"date": "2026-09-05T13:14:46Z",
-		"distanceKm": 3.8,
-		"avgSpeedKmh": 8.7,
-		"avgHeartRate": 111,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 26,
-		"mapImage": "/images/strava/activity-20047286268.png"
 	}
 ]
