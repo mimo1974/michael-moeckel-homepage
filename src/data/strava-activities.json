@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20130225645,
+		"name": "Aktive Mittagspause Herzberger Teleskoptreffen 😜  🚴🌞 🔭  -  2xL5 📊",
+		"date": "2026-09-11T09:43:43Z",
+		"distanceKm": 40.1,
+		"avgSpeedKmh": 34.5,
+		"avgHeartRate": null,
+		"avgWatts": 245,
+		"normalizedPower": 255,
+		"movingTimeMinutes": 70,
+		"mapImage": "/images/strava/activity-20130225645.png"
+	},
+	{
 		"id": 20117075490,
 		"name": "Erledigungen 🏃🌥️",
 		"date": "2026-09-10T12:51:33Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": 295,
 		"movingTimeMinutes": 47,
 		"mapImage": "/images/strava/activity-20067134281.png"
-	},
-	{
-		"id": 20063173877,
-		"name": "8x40s + 1x220s  📊 🏃🌞 Stimulus Nüchtern",
-		"date": "2026-09-06T15:01:36Z",
-		"distanceKm": 4.4,
-		"avgSpeedKmh": 12.2,
-		"avgHeartRate": 149,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 22,
-		"mapImage": "/images/strava/activity-20063173877.png"
 	}
 ]
