@@ -1,5 +1,29 @@
 [
 	{
+		"id": 20176471386,
+		"name": "5000m C2 🚣",
+		"date": "2026-09-14T20:54:23Z",
+		"distanceKm": 5,
+		"avgSpeedKmh": 12.7,
+		"avgHeartRate": null,
+		"avgWatts": 123,
+		"normalizedPower": 122,
+		"movingTimeMinutes": 24,
+		"mapImage": null
+	},
+	{
+		"id": 20158111492,
+		"name": "Easy 🏃🌥️",
+		"date": "2026-09-13T12:23:42Z",
+		"distanceKm": 4.9,
+		"avgSpeedKmh": 7.7,
+		"avgHeartRate": null,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 38,
+		"mapImage": "/images/strava/activity-20158111492.png"
+	},
+	{
 		"id": 20130225645,
 		"name": "Aktive Mittagspause Herzberger Teleskoptreffen 😜  🚴🌞 🔭  -  2xL5 📊",
 		"date": "2026-09-11T09:43:43Z",
@@ -10,29 +34,5 @@
 		"normalizedPower": 255,
 		"movingTimeMinutes": 70,
 		"mapImage": "/images/strava/activity-20130225645.png"
-	},
-	{
-		"id": 20117075490,
-		"name": "Erledigungen 🏃🌥️",
-		"date": "2026-09-10T12:51:33Z",
-		"distanceKm": 6.7,
-		"avgSpeedKmh": 10.1,
-		"avgHeartRate": null,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 40,
-		"mapImage": "/images/strava/activity-20117075490.png"
-	},
-	{
-		"id": 20067134281,
-		"name": "40min@SS 🔦",
-		"date": "2026-09-06T20:37:14Z",
-		"distanceKm": 30.1,
-		"avgSpeedKmh": 38,
-		"avgHeartRate": 131,
-		"avgWatts": 291,
-		"normalizedPower": 295,
-		"movingTimeMinutes": 47,
-		"mapImage": "/images/strava/activity-20067134281.png"
 	}
 ]
