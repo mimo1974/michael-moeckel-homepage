@@ -1,5 +1,29 @@
 [
 	{
+		"id": 20206333868,
+		"name": "C2 🚣 3333",
+		"date": "2026-09-16T20:17:59Z",
+		"distanceKm": 3.3,
+		"avgSpeedKmh": 12.6,
+		"avgHeartRate": null,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 16,
+		"mapImage": null
+	},
+	{
+		"id": 20188767888,
+		"name": "8kg 🎒 🏃 🚶",
+		"date": "2026-09-15T16:23:25Z",
+		"distanceKm": 5.6,
+		"avgSpeedKmh": 6.4,
+		"avgHeartRate": 118,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 52,
+		"mapImage": "/images/strava/activity-20188767888.png"
+	},
+	{
 		"id": 20176471386,
 		"name": "5000m C2 🚣",
 		"date": "2026-09-14T20:54:23Z",
@@ -10,29 +34,5 @@
 		"normalizedPower": 122,
 		"movingTimeMinutes": 24,
 		"mapImage": null
-	},
-	{
-		"id": 20172469031,
-		"name": "9kg 🎒🏃🚶🌞",
-		"date": "2026-09-14T14:18:07Z",
-		"distanceKm": 6.7,
-		"avgSpeedKmh": 6.7,
-		"avgHeartRate": 125,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 60,
-		"mapImage": "/images/strava/activity-20172469031.png"
-	},
-	{
-		"id": 20158111492,
-		"name": "Easy 🏃🌥️",
-		"date": "2026-09-13T12:23:42Z",
-		"distanceKm": 4.9,
-		"avgSpeedKmh": 7.7,
-		"avgHeartRate": null,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 38,
-		"mapImage": "/images/strava/activity-20158111492.png"
 	}
 ]
