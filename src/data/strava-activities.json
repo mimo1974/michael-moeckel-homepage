@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20219899182,
+		"name": "🌄 🔦 🚴 SS",
+		"date": "2026-09-17T19:57:23Z",
+		"distanceKm": 50.5,
+		"avgSpeedKmh": 32.8,
+		"avgHeartRate": 122,
+		"avgWatts": 239,
+		"normalizedPower": 251,
+		"movingTimeMinutes": 92,
+		"mapImage": "/images/strava/activity-20219899182.png"
+	},
+	{
 		"id": 20206333868,
 		"name": "C2 🚣 3333",
 		"date": "2026-09-16T20:17:59Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 52,
 		"mapImage": "/images/strava/activity-20188767888.png"
-	},
-	{
-		"id": 20176471386,
-		"name": "5000m C2 🚣",
-		"date": "2026-09-14T20:54:23Z",
-		"distanceKm": 5,
-		"avgSpeedKmh": 12.7,
-		"avgHeartRate": null,
-		"avgWatts": 123,
-		"normalizedPower": 122,
-		"movingTimeMinutes": 24,
-		"mapImage": null
 	}
 ]
