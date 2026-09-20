@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20246843109,
+		"name": "🌄 SS 📊",
+		"date": "2026-09-19T19:34:06Z",
+		"distanceKm": 30.5,
+		"avgSpeedKmh": 35.8,
+		"avgHeartRate": 137,
+		"avgWatts": 277,
+		"normalizedPower": 283,
+		"movingTimeMinutes": 51,
+		"mapImage": "/images/strava/activity-20246843109.png"
+	},
+	{
 		"id": 20219899182,
 		"name": "🌄 🔦 🚴 SS",
 		"date": "2026-09-17T19:57:23Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 16,
 		"mapImage": null
-	},
-	{
-		"id": 20188767888,
-		"name": "8kg 🎒 🏃 🚶",
-		"date": "2026-09-15T16:23:25Z",
-		"distanceKm": 5.6,
-		"avgSpeedKmh": 6.4,
-		"avgHeartRate": 118,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 52,
-		"mapImage": "/images/strava/activity-20188767888.png"
 	}
 ]
