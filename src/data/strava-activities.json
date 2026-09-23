@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20284581509,
+		"name": "🚶 mit Mama + Papa ❤️ 🌞 9kg 🎒",
+		"date": "2026-09-22T12:19:27Z",
+		"distanceKm": 8.6,
+		"avgSpeedKmh": 4.6,
+		"avgHeartRate": 85,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 112,
+		"mapImage": "/images/strava/activity-20284581509.png"
+	},
+	{
 		"id": 20246843109,
 		"name": "🌄 SS 📊",
 		"date": "2026-09-19T19:34:06Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": 251,
 		"movingTimeMinutes": 92,
 		"mapImage": "/images/strava/activity-20219899182.png"
-	},
-	{
-		"id": 20206333868,
-		"name": "C2 🚣 3333",
-		"date": "2026-09-16T20:17:59Z",
-		"distanceKm": 3.3,
-		"avgSpeedKmh": 12.6,
-		"avgHeartRate": null,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 16,
-		"mapImage": null
 	}
 ]
