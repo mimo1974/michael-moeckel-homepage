@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20328400084,
+		"name": "🌄 Windschatten 🚴🚴 für Matti's ersten 30'er  ∅  😀 🚀",
+		"date": "2026-09-25T18:28:53Z",
+		"distanceKm": 40.1,
+		"avgSpeedKmh": 30.6,
+		"avgHeartRate": 108,
+		"avgWatts": 205,
+		"normalizedPower": 216,
+		"movingTimeMinutes": 78,
+		"mapImage": "/images/strava/activity-20328400084.png"
+	},
+	{
 		"id": 20296933515,
 		"name": "14x40s L5/6 📊🌞",
 		"date": "2026-09-23T13:34:14Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 112,
 		"mapImage": "/images/strava/activity-20284581509.png"
-	},
-	{
-		"id": 20246843109,
-		"name": "🌄 SS 📊",
-		"date": "2026-09-19T19:34:06Z",
-		"distanceKm": 30.5,
-		"avgSpeedKmh": 35.8,
-		"avgHeartRate": 137,
-		"avgWatts": 277,
-		"normalizedPower": 283,
-		"movingTimeMinutes": 51,
-		"mapImage": "/images/strava/activity-20246843109.png"
 	}
 ]
