@@ -1,5 +1,29 @@
 [
 	{
+		"id": 20437655786,
+		"name": "🌄  Kind of TT@SS - Scheibe wäre schon was 🤔",
+		"date": "2026-10-03T17:35:20Z",
+		"distanceKm": 26.7,
+		"avgSpeedKmh": 38.3,
+		"avgHeartRate": 78,
+		"avgWatts": 296,
+		"normalizedPower": 304,
+		"movingTimeMinutes": 42,
+		"mapImage": "/images/strava/activity-20437655786.png"
+	},
+	{
+		"id": 20432453023,
+		"name": "BreathWork - RedLight 🔴  - Kraft 🏋️",
+		"date": "2026-10-03T08:10:30Z",
+		"distanceKm": 0,
+		"avgSpeedKmh": 0,
+		"avgHeartRate": null,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 37,
+		"mapImage": null
+	},
+	{
 		"id": 20407113404,
 		"name": "🏃 8kg 🎒",
 		"date": "2026-10-01T13:24:05Z",
@@ -10,29 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 29,
 		"mapImage": "/images/strava/activity-20407113404.png"
-	},
-	{
-		"id": 20392458782,
-		"name": "easy 🏃 Fasted 🌞",
-		"date": "2026-09-30T12:01:21Z",
-		"distanceKm": 4.7,
-		"avgSpeedKmh": 8.3,
-		"avgHeartRate": 128,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 34,
-		"mapImage": "/images/strava/activity-20392458782.png"
-	},
-	{
-		"id": 20380020258,
-		"name": "🏃🚶 10kg 🎒",
-		"date": "2026-09-29T13:52:52Z",
-		"distanceKm": 8.9,
-		"avgSpeedKmh": 6.3,
-		"avgHeartRate": 92,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 85,
-		"mapImage": "/images/strava/activity-20380020258.png"
 	}
 ]
