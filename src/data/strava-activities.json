@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20449044102,
+		"name": "EAA/MCT 🥥 ☕ base 🏃🌞 7kg 🎒",
+		"date": "2026-10-04T14:00:28Z",
+		"distanceKm": 5.6,
+		"avgSpeedKmh": 9.1,
+		"avgHeartRate": 135,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 37,
+		"mapImage": "/images/strava/activity-20449044102.png"
+	},
+	{
 		"id": 20437655786,
 		"name": "🌄  Kind of TT@SS - Scheibe wäre schon was 🤔",
 		"date": "2026-10-03T17:35:20Z",
@@ -12,27 +24,15 @@
 		"mapImage": "/images/strava/activity-20437655786.png"
 	},
 	{
-		"id": 20432453023,
-		"name": "BreathWork - RedLight 🔴  - Kraft 🏋️",
-		"date": "2026-10-03T08:10:30Z",
-		"distanceKm": 0,
-		"avgSpeedKmh": 0,
-		"avgHeartRate": null,
+		"id": 20434675812,
+		"name": "Base 🏃 7kg 🎒",
+		"date": "2026-10-03T14:04:44Z",
+		"distanceKm": 5.6,
+		"avgSpeedKmh": 10.3,
+		"avgHeartRate": 137,
 		"avgWatts": null,
 		"normalizedPower": null,
-		"movingTimeMinutes": 37,
-		"mapImage": null
-	},
-	{
-		"id": 20407113404,
-		"name": "🏃 8kg 🎒",
-		"date": "2026-10-01T13:24:05Z",
-		"distanceKm": 4.4,
-		"avgSpeedKmh": 9.1,
-		"avgHeartRate": 113,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 29,
-		"mapImage": "/images/strava/activity-20407113404.png"
+		"movingTimeMinutes": 32,
+		"mapImage": "/images/strava/activity-20434675812.png"
 	}
 ]
