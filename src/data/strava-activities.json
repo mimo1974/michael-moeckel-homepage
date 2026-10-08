@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20465819015,
+		"name": "🚶",
+		"date": "2026-10-05T19:54:55Z",
+		"distanceKm": 6.2,
+		"avgSpeedKmh": 5,
+		"avgHeartRate": null,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 74,
+		"mapImage": "/images/strava/activity-20465819015.png"
+	},
+	{
 		"id": 20449044102,
 		"name": "EAA/MCT 🥥 ☕ base 🏃🌞 7kg 🎒",
 		"date": "2026-10-04T14:00:28Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": 304,
 		"movingTimeMinutes": 42,
 		"mapImage": "/images/strava/activity-20437655786.png"
-	},
-	{
-		"id": 20434675812,
-		"name": "Base 🏃 7kg 🎒",
-		"date": "2026-10-03T14:04:44Z",
-		"distanceKm": 5.6,
-		"avgSpeedKmh": 10.3,
-		"avgHeartRate": 137,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 32,
-		"mapImage": "/images/strava/activity-20434675812.png"
 	}
 ]
