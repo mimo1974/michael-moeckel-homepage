@@ -1,5 +1,29 @@
 [
 	{
+		"id": 20491142123,
+		"name": "🏃🚶 7kg 🎒 🌤️",
+		"date": "2026-10-07T15:16:20Z",
+		"distanceKm": 6,
+		"avgSpeedKmh": 6.8,
+		"avgHeartRate": 104,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 53,
+		"mapImage": "/images/strava/activity-20491142123.png"
+	},
+	{
+		"id": 20476047571,
+		"name": "🏃🚶 8kg 🎒 🌞",
+		"date": "2026-10-06T14:31:20Z",
+		"distanceKm": 4.5,
+		"avgSpeedKmh": 6.2,
+		"avgHeartRate": 92,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 44,
+		"mapImage": "/images/strava/activity-20476047571.png"
+	},
+	{
 		"id": 20465819015,
 		"name": "🚶",
 		"date": "2026-10-05T19:54:55Z",
@@ -10,29 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 74,
 		"mapImage": "/images/strava/activity-20465819015.png"
-	},
-	{
-		"id": 20449044102,
-		"name": "EAA/MCT 🥥 ☕ base 🏃🌞 7kg 🎒",
-		"date": "2026-10-04T14:00:28Z",
-		"distanceKm": 5.6,
-		"avgSpeedKmh": 9.1,
-		"avgHeartRate": 135,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 37,
-		"mapImage": "/images/strava/activity-20449044102.png"
-	},
-	{
-		"id": 20437655786,
-		"name": "🌄  Kind of TT@SS - Scheibe wäre schon was 🤔",
-		"date": "2026-10-03T17:35:20Z",
-		"distanceKm": 26.7,
-		"avgSpeedKmh": 38.3,
-		"avgHeartRate": 78,
-		"avgWatts": 296,
-		"normalizedPower": 304,
-		"movingTimeMinutes": 42,
-		"mapImage": "/images/strava/activity-20437655786.png"
 	}
 ]
