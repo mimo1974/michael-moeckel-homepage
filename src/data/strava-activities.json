@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20572050936,
+		"name": "🚶 🏃 10kg 🎒",
+		"date": "2026-10-13T16:43:25Z",
+		"distanceKm": 6.6,
+		"avgSpeedKmh": 6.7,
+		"avgHeartRate": 108,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 59,
+		"mapImage": "/images/strava/activity-20572050936.png"
+	},
+	{
 		"id": 20559802071,
 		"name": "MyWhoosh ITT League - etwas Reiz setzen 😅",
 		"date": "2026-10-12T20:30:01Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 27,
 		"mapImage": "/images/strava/activity-20506487244.png"
-	},
-	{
-		"id": 20491142123,
-		"name": "🏃🚶 7kg 🎒 🌤️",
-		"date": "2026-10-07T15:16:20Z",
-		"distanceKm": 6,
-		"avgSpeedKmh": 6.8,
-		"avgHeartRate": 104,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 53,
-		"mapImage": "/images/strava/activity-20491142123.png"
 	}
 ]
