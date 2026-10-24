@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20690921807,
+		"name": "🚶 🏃 10kg 🎒🌄",
+		"date": "2026-10-22T15:02:20Z",
+		"distanceKm": 7.8,
+		"avgSpeedKmh": 5.5,
+		"avgHeartRate": 110,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 84,
+		"mapImage": "/images/strava/activity-20690921807.png"
+	},
+	{
 		"id": 20598964490,
 		"name": "🚶 🏃 11kg 🎒🌄",
 		"date": "2026-10-15T15:48:16Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 43,
 		"mapImage": "/images/strava/activity-20586591557.png"
-	},
-	{
-		"id": 20572050936,
-		"name": "🚶 🏃 10kg 🎒",
-		"date": "2026-10-13T16:43:25Z",
-		"distanceKm": 6.6,
-		"avgSpeedKmh": 6.7,
-		"avgHeartRate": 108,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 59,
-		"mapImage": "/images/strava/activity-20572050936.png"
 	}
 ]
