@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20717536846,
+		"name": "MyWhoosh Hill 🏔️ Climb League SS 😬",
+		"date": "2026-10-24T20:00:00Z",
+		"distanceKm": 11.7,
+		"avgSpeedKmh": 16.9,
+		"avgHeartRate": 132,
+		"avgWatts": 296,
+		"normalizedPower": 306,
+		"movingTimeMinutes": 41,
+		"mapImage": "/images/strava/activity-20717536846.png"
+	},
+	{
 		"id": 20690921807,
 		"name": "🚶 🏃 10kg 🎒🌄",
 		"date": "2026-10-22T15:02:20Z",
@@ -22,17 +34,5 @@
 		"normalizedPower": null,
 		"movingTimeMinutes": 63,
 		"mapImage": "/images/strava/activity-20598964490.png"
-	},
-	{
-		"id": 20586591557,
-		"name": "🚶 🏃 8kg 🎒",
-		"date": "2026-10-14T18:28:11Z",
-		"distanceKm": 4.5,
-		"avgSpeedKmh": 6.2,
-		"avgHeartRate": 109,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 43,
-		"mapImage": "/images/strava/activity-20586591557.png"
 	}
 ]
