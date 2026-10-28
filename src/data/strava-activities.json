@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20755436033,
+		"name": "Afterwork 🌄 🚴  L4  📊",
+		"date": "2026-10-27T17:20:34Z",
+		"distanceKm": 30.3,
+		"avgSpeedKmh": 36.1,
+		"avgHeartRate": 133,
+		"avgWatts": 276,
+		"normalizedPower": 272,
+		"movingTimeMinutes": 50,
+		"mapImage": null
+	},
+	{
 		"id": 20717536846,
 		"name": "MyWhoosh Hill 🏔️ Climb League SS 😬",
 		"date": "2026-10-24T20:00:00Z",
@@ -9,7 +21,7 @@
 		"avgWatts": 296,
 		"normalizedPower": 306,
 		"movingTimeMinutes": 41,
-		"mapImage": "/images/strava/activity-20717536846.png"
+		"mapImage": null
 	},
 	{
 		"id": 20690921807,
@@ -21,18 +33,6 @@
 		"avgWatts": null,
 		"normalizedPower": null,
 		"movingTimeMinutes": 84,
-		"mapImage": "/images/strava/activity-20690921807.png"
-	},
-	{
-		"id": 20598964490,
-		"name": "🚶 🏃 11kg 🎒🌄",
-		"date": "2026-10-15T15:48:16Z",
-		"distanceKm": 6.7,
-		"avgSpeedKmh": 6.4,
-		"avgHeartRate": 99,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 63,
-		"mapImage": "/images/strava/activity-20598964490.png"
+		"mapImage": null
 	}
 ]
