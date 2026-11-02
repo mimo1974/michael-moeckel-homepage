@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20822158050,
+		"name": "🌄  L2b/L3 📊 🚴 mit K3 ab km40 - Fixie 50/11 ab Mittweida 🙈 Di2 leer 🪫",
+		"date": "2026-11-01T16:31:35Z",
+		"distanceKm": 67.1,
+		"avgSpeedKmh": 32.6,
+		"avgHeartRate": 88,
+		"avgWatts": 245,
+		"normalizedPower": 258,
+		"movingTimeMinutes": 123,
+		"mapImage": null
+	},
+	{
 		"id": 20804941372,
 		"name": "Geburtstag Mia ❤️ - 10 kg 🎒",
 		"date": "2026-10-31T13:12:42Z",
@@ -21,18 +33,6 @@
 		"avgWatts": 276,
 		"normalizedPower": 272,
 		"movingTimeMinutes": 50,
-		"mapImage": null
-	},
-	{
-		"id": 20717536846,
-		"name": "MyWhoosh Hill 🏔️ Climb League SS 😬",
-		"date": "2026-10-24T20:00:00Z",
-		"distanceKm": 11.7,
-		"avgSpeedKmh": 16.9,
-		"avgHeartRate": 132,
-		"avgWatts": 296,
-		"normalizedPower": 306,
-		"movingTimeMinutes": 41,
 		"mapImage": null
 	}
 ]
