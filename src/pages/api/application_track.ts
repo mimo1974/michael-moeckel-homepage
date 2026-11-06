@@ -22,6 +22,5 @@ export const GET: APIRoute = async ({ request }) => {
 		}
 	}
 
-	// return new Response(null, { status: 302, headers: { Location: '/application.mp4' } });
 	return new Response(null, { status: 404});
 };
