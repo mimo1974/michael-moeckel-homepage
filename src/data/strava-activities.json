@@ -1,5 +1,17 @@
 [
 	{
+		"id": 20883634386,
+		"name": "EAA/MCT 🥥 ☕ 🏃🌞 13x40s 📊",
+		"date": "2026-11-06T13:17:07Z",
+		"distanceKm": 5.6,
+		"avgSpeedKmh": 11.3,
+		"avgHeartRate": 134,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 29,
+		"mapImage": null
+	},
+	{
 		"id": 20822158050,
 		"name": "🌄  L2b/L3 📊 🚴 mit K3 ab km40 - Fixie 50/11 ab Mittweida 🙈 Di2 leer 🪫",
 		"date": "2026-11-01T16:31:35Z",
@@ -21,18 +33,6 @@
 		"avgWatts": null,
 		"normalizedPower": null,
 		"movingTimeMinutes": 62,
-		"mapImage": null
-	},
-	{
-		"id": 20755436033,
-		"name": "Afterwork 🌄 🚴  L4  📊",
-		"date": "2026-10-27T17:20:34Z",
-		"distanceKm": 30.3,
-		"avgSpeedKmh": 36.1,
-		"avgHeartRate": 133,
-		"avgWatts": 276,
-		"normalizedPower": 272,
-		"movingTimeMinutes": 50,
 		"mapImage": null
 	}
 ]
