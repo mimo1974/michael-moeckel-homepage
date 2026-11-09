@@ -1,5 +1,29 @@
 [
 	{
+		"id": 20912803618,
+		"name": "Base 🏃🌄",
+		"date": "2026-11-08T15:28:43Z",
+		"distanceKm": 22.2,
+		"avgSpeedKmh": 10.6,
+		"avgHeartRate": 139,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 126,
+		"mapImage": null
+	},
+	{
+		"id": 20908938008,
+		"name": "🏃🚶🌞 8kg 🎒",
+		"date": "2026-11-07T12:39:54Z",
+		"distanceKm": 12.4,
+		"avgSpeedKmh": 5.7,
+		"avgHeartRate": 110,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 131,
+		"mapImage": null
+	},
+	{
 		"id": 20883634386,
 		"name": "EAA/MCT 🥥 ☕ 🏃🌞 13x40s 📊",
 		"date": "2026-11-06T13:17:07Z",
@@ -9,30 +33,6 @@
 		"avgWatts": null,
 		"normalizedPower": null,
 		"movingTimeMinutes": 29,
-		"mapImage": null
-	},
-	{
-		"id": 20822158050,
-		"name": "🌄  L2b/L3 📊 🚴 mit K3 ab km40 - Fixie 50/11 ab Mittweida 🙈 Di2 leer 🪫",
-		"date": "2026-11-01T16:31:35Z",
-		"distanceKm": 67.1,
-		"avgSpeedKmh": 32.6,
-		"avgHeartRate": 88,
-		"avgWatts": 245,
-		"normalizedPower": 258,
-		"movingTimeMinutes": 123,
-		"mapImage": null
-	},
-	{
-		"id": 20804941372,
-		"name": "Geburtstag Mia ❤️ - 10 kg 🎒",
-		"date": "2026-10-31T13:12:42Z",
-		"distanceKm": 7.1,
-		"avgSpeedKmh": 6.9,
-		"avgHeartRate": 147,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 62,
 		"mapImage": null
 	}
 ]
