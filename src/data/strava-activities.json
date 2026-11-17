@@ -1,5 +1,29 @@
 [
 	{
+		"id": 21001554010,
+		"name": "Easy 🏃 8kg 🎒",
+		"date": "2026-11-15T18:22:38Z",
+		"distanceKm": 5.6,
+		"avgSpeedKmh": 8.4,
+		"avgHeartRate": 157,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 40,
+		"mapImage": null
+	},
+	{
+		"id": 20989756361,
+		"name": "🚶 9kg 🎒",
+		"date": "2026-11-14T20:36:02Z",
+		"distanceKm": 6.7,
+		"avgSpeedKmh": 5.2,
+		"avgHeartRate": 112,
+		"avgWatts": null,
+		"normalizedPower": null,
+		"movingTimeMinutes": 77,
+		"mapImage": null
+	},
+	{
 		"id": 20986079892,
 		"name": "🏃🚶 8kg 🎒 🌞",
 		"date": "2026-11-14T14:12:32Z",
@@ -9,30 +33,6 @@
 		"avgWatts": null,
 		"normalizedPower": null,
 		"movingTimeMinutes": 47,
-		"mapImage": null
-	},
-	{
-		"id": 20976143546,
-		"name": "Easy 🏃 8kg 🎒",
-		"date": "2026-11-13T20:05:20Z",
-		"distanceKm": 4.4,
-		"avgSpeedKmh": 8.9,
-		"avgHeartRate": 143,
-		"avgWatts": null,
-		"normalizedPower": null,
-		"movingTimeMinutes": 30,
-		"mapImage": null
-	},
-	{
-		"id": 20964941898,
-		"name": "MyWhoosh Hill Climb League L4 😬",
-		"date": "2026-11-12T21:00:06Z",
-		"distanceKm": 8.6,
-		"avgSpeedKmh": 14.3,
-		"avgHeartRate": 145,
-		"avgWatts": 305,
-		"normalizedPower": 311,
-		"movingTimeMinutes": 36,
 		"mapImage": null
 	}
 ]
